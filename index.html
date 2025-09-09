@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="top-bar">
             <div class="container">
                 <div class="contact">
@@ -28,198 +28,195 @@
                     <h1>Cookware</h1>
                     <p>Lorem adipisicing ept.</p>
                 </div>
-                <div class="search-bar">
-                    <input type="text">
-                    <button>SEARCH</button>
-                </div>
-                <div class="user-info">
-                    <div class="account">
-                        <a href="#">👤 YOUR ACCOUNT</a>
-                        <a href="">🔒 SIGN OUT</a>
-                    </div>
-                </div>
-                <div class="cart"><a href="#">🛒 0</a></div>
+                <form class="search-bar" role="search">
+                    <input type="text" placeholder="Buscar...">
+                    <button type="submit">SEARCH</button>
+                </form>
+                <nav class="user-info">
+                    <a href="#">👤 YOUR ACCOUNT</a>
+                    <a href="#">🔒 SIGN OUT</a>
+                </nav>
+                <a class="cart" href="#">🛒 0</a>
             </div>
         </div>
-    </div>
-    <div class="main-content container3">
-        <div class="sidebar">
-            <div class="categories">
+    </header>
+
+    <main class="main-content container3">
+        <aside class="sidebar">
+            <section class="categories">
                 <h2>Categories</h2>
-                <div class="tipo">
-                    <p>Cookware</p>
-                    <p>Cook's Tools</p>
-                    <p>Cutlery</p>
-                    <p>Dinnerware</p>
-                    <p>Bakeware</p>
-                    <p>Tabletop</p>
-                    <p>Glassware</p>
-                    <p>Homekeeping</p>
-                    <p>Outdoor</p>
-                </div>
-            </div>
-            <div class="specials">
+                <ul class="tipo">
+                    <li>Cookware</li>
+                    <li>Cook's Tools</li>
+                    <li>Cutlery</li>
+                    <li>Dinnerware</li>
+                    <li>Bakeware</li>
+                    <li>Tabletop</li>
+                    <li>Glassware</li>
+                    <li>Homekeeping</li>
+                    <li>Outdoor</li>
+                </ul>
+            </section>
+            <section class="specials">
                 <h2>Specials</h2>
                 <div class="special-item">
                     <img src="./img/1000045217.png" alt="Product Image">
                     <div class="special-item2">
                         <p>NAPKINSDFJSKDJFSDASFJASF</p>
                         <div class="precio-item">
-                            <p class="price">$13.74</p>
-                            <p id="descuento">-25%</p>
+                            <span>
+                            <span class="price">$13.74</span>
+                            <span id="descuento">-25%</span>
                             <span class="old-price">$16.10</span>
+                        </span>
                         </div>
                     </div>
                 </div>
                 <button>SEE ALL SPECIALS</button>
-            </div>
-            <div class="special-offer-banner">
-                <h2>Special offer!</h2>
-                <div class="oferta">
-                    <p>Lorem ipsum sjafjksad</p>
-                    <h4>Save up to 30%</h4>
-                    <p>ajsalsjkaskfjalskfjak</p>
+            </section>
+            <section class="special-offer-banner">
+                <div class="header-content">
+                    <h2>Special offer!</h2>
+                    <div class="oferta">
+                        <p>Lorem ipsum sjafjksad</p>
+                        <h4>Save up to 30%</h4>
+                        <p>ajsalsjkaskfjalskfjak</p>
+                    </div>
                 </div>
                 <button>Shop Now!</button>
-            </div>
-        </div>
+            </section>
+        </aside>
 
-        <div class="product-area">
+        <section class="product-area">
             <div class="main-banner">
                 <img src="./img/ollas.jpg" alt="Main Banner">
             </div>
             <div class="product-grid">
                 <div class="grid-item">
-                    <img src="./img/setollas.png" alt="Cookware Sets">
-                    <h3>Cookware Sets</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/setollas.png" alt="Cookware Sets">
+                        <h3>Cookware Sets</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/utensilios.png" alt="Cooking Utensils">
-                    <h3>Cooking Utensils</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/utensilios.png" alt="Cooking Utensils">
+                        <h3>Cooking Utensils</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/owenwave.png" alt="Ovenware">
-                    <h3>Ovenware</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/owenwave.png" alt="Ovenware">
+                        <h3>Ovenware</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/grillpans.png" alt="Grill Pans & Griddles">
-                    <h3>Grill Pans & Griddles</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/grillpans.png" alt="Grill Pans & Griddles">
+                        <h3>Grill Pans & Griddles</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/tostadora.png" alt="Roasters">
-                    <h3>Roasters</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/tostadora.png" alt="Roasters">
+                        <h3>Roasters</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/woks.png" alt="Woks">
-                    <h3>Woks</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/woks.png" alt="Woks">
+                        <h3>Woks</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/saucepans.png" alt="Saucepans">
-                    <h3>Saucepans</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/saucepans.png" alt="Saucepans">
+                        <h3>Saucepans</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/dutchoven.png" alt="Dutch Ovens">
-                    <h3>Dutch Ovens</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/dutchoven.png" alt="Dutch Ovens">
+                        <h3>Dutch Ovens</h3>
                 </div>
                 <div class="grid-item">
-                    <img src="./img/cuchillos.png" alt="Knives">
-                    <h3>Knives</h3>
-                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        <img src="./img/cuchillos.png" alt="Knives">
+                        <h3>Knives</h3>
                 </div>
             </div>
 
-            <div class="featured-products">
+            <section class="featured-products">
                 <h2>Featured products</h2>
                 <div class="product-row">
                     <div class="product-card">
-                        <p class="etiqueta">SALE!</p>
+                        <span class="etiqueta">SALE!</span>
                         <img src="./img/balanza.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">RIVATI'S-1 BALL ELECTRONIC KITCHEN SCALE</p>
                             <div class="precio-item">
-                                <p class="price">$91.15 <span class="old-price">$$101.28</span></p>
-                                <p id="descuento">-5%</p>
+                                <span>
+                                    <span class="price">$91.15 <span class="old-price">$$101.28</span></span>
+                                    <span id="descuento">-5%</span>
+                                </span>
                             </div>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
+                        </div>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="product-card">
                         <img src="./img/cafetera.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">COPPER KITCHEN KADAIING KITCHEN</p>
-                            <p class="price">$172.15</p>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
+                        </div>
+                        <span id="price">$172.15</span>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="product-card">
                         <img src="./img/esponja.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">OMARA-BABY BOWL CANDY</p>
-                            <p class="price">$11.25</p>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
                         </div>
-
+                        <span id="price">$11.25</span>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
+                        </div>
                     </div>
                 </div>
                 <div class="product-row">
                     <div class="product-card">
-                        <p class="etiqueta">SALE!</p>
+                        <span class="etiqueta">SALE!</span>
                         <img src="./img/ollaexpress.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">TOTALL-JAW BLOW PRESSURE COOKER</p>
                             <div class="precio-item">
-                                <p class="price">$54.56 <span class="old-price">$$82.02</span></p>
-                                <p id="descuento">-3%</p>
+                                <span>
+                                    <span class="price">$54.56 <span class="old-price">$$82.02</span></span>
+                                    <span id="descuento">-3%</span>
+                                </span>
                             </div>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
+                        </div>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="product-card">
                         <img src="./img/pesa.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">MECHANICAL KITCHEN SCALES</p>
-                            <p class="price">$24.15</p>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
+                        </div>
+                        <span id="price">$24.15</span>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="product-card">
                         <img src="./img/ollagrande.png" alt="Product">
                         <div class="info-card">
                             <p class="product-name">BAKINGWARE NONSTICK COPPER AND ALUMINUM</p>
-                            <p class="price">$64.15</p>
-                            <div class="botontarjeta">
-                                <button id="carrito">🛒</button>
-                                <button id="textoboton">ADD TO CART</button>
-                            </div>
+                        </div>
+                        <span id="price">$64.15</span>
+                        <div class="botontarjeta">
+                            <button id="carrito">🛒</button>
+                            <button id="textoboton">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="promo-banners">
+            <section class="promo-banners">
                 <div class="special-offer-card">
                     <img src="./img/plato2.jpeg" alt="Food with chicken and broccoli">
                     <h3>Special offer</h3>
@@ -235,10 +232,11 @@
                     <h3>Special offer</h3>
                     <p>LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISCI NG ELIT, SED DO EIUSMOD TEMPOR</p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
         <div class="container">
             <div class="footer-column">
                 <h3>Information</h3>
@@ -272,14 +270,14 @@
             <div class="footer-column">
                 <div class="logo">
                     <h1>Cookware</h1>
-                    <p id="logo2">Lorem adipisicing ept.</p>
+                    <p>Lorem adipisicing ept.</p>
                 </div>
                 <p>My Custom Footer Link</p>
-                <p>Mi dirección, mi teléfono, etc.</p>
+                <p>Cra 16 #10- 41 3232816596 Santander</p>
                 <p>Email: <a href="mailto:info@cookware.com">info@cookware.com</a></p>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
