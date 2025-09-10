@@ -756,6 +756,10 @@ body {
         max-height: 70%;
         margin: 0 auto;
     }
+
+    .user-info {
+        text-align: center;
+    }
 }
 
 @media (max-width: 700px) {
@@ -870,3 +874,4 @@ body {
         border-bottom: 1px solid #a1a1a1;
     }
 }
+
